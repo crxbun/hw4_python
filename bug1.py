@@ -29,7 +29,7 @@ class Circle(Base):
     
 # def main():
 #     c = Circle(1,2,3)
-#     print(c.shape(), end="")
+#     print(c.shape())
 #     print(c.draw())
 
 # main()
