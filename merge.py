@@ -48,10 +48,16 @@ def sort(list:list, start:int, end:int):
 def merge_list(list1, list2: list) -> list:
     solution = []
     for x in list1:
-        solution.append(x)
+        if (isinstance(x, int)):
+            solution.append(x)
+        else:
+            raise TypeError
 
     for x in list2:
-        solution.append(x)
+        if (isinstance(x, int)):
+            solution.append(x)
+        else:
+            raise TypeError
     
     sort(solution, 0, len(solution) - 1)
     return solution
