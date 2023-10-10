@@ -46,6 +46,12 @@ def sort(list:list, start:int, end:int):
     
 
 def merge_list(list1, list2: list) -> list:
+    if (not isinstance(list1, list)):
+        raise TypeError
+    
+    if (not isinstance(list2, list)):
+        raise TypeError
+    
     solution = []
     for x in list1:
         if (isinstance(x, int)):
