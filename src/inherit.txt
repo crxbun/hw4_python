@@ -1,0 +1,3 @@
+One use you might use inheritance for in a program is so that you don't have to repeatedly write the same code.
+Since inheritance between classes allows the subclass/child class to inherit the visible methods of its superclass,
+this allows for similarly structured classes to inherit methods for which they share commonalities.

@@ -1,0 +1,6 @@
+a is not changed after the method call since the value returned by increment_int_a is never stored anywhere.
+Further more, we do not reassign the value of a to the value returned by the increment_int_a function, even
+if it did return a string.
+
+The value stored at the key location '32' is incremented in dictionary b as b is a dictionary with one key
+'32' and an entry 0. 
