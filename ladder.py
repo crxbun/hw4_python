@@ -3,6 +3,9 @@ def my_steps(n: int) -> int:
     Dynamic programming approach for calculating how many different ways we can
     go up a set of n stairs given we can take 1 or 2 steps each time.
     """
+    if (n < 1 or n > 25):
+        raise ValueError
+    
     one_step, two_steps = 1, 1
 
     for i in range(n - 1):
