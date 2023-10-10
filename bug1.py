@@ -27,9 +27,9 @@ class Circle(Base):
        ' - , _ _ _ ,  '
                """
     
-def main():
-    c = Circle(1,2,3)
-    print(c.shape(), end="")
-    print(c.draw())
+# def main():
+#     c = Circle(1,2,3)
+#     print(c.shape(), end="")
+#     print(c.draw())
 
-main()
+# main()
